@@ -10,3 +10,6 @@ script_share_path=$script_path/local/share
 rsync -a $script_config_path/* $config_path
 rsync -a $script_share_path/* $share_path
 rsync -a $script_path/.* $HOME
+
+# for x in $(cat package_list.txt); do pacman -S --noconfirm --needed $x; done
+# for x in $(cat package_list.txt); do yay -S --noconfirm --needed $x; done
