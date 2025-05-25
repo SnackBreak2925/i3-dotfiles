@@ -1,0 +1,10 @@
+.bash_profile
+.bashrc
+.dmrc
+.gitconfig
+.gtkrc-2.0
+.p10k.zsh
+.profile
+.xprofile
+.Xresources
+.zshrc
